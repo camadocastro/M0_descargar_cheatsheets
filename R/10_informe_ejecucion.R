@@ -22,7 +22,7 @@ pacman::p_load(glue, rmarkdown, tidyverse, tidyselect)
 
 set.seed(1234)
 
-knitr::opts_chunk(warning = FALSE, message = FALSE, echo = FALSE, dpi = 180, fig.width = 6, fig.height = 6)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, echo = FALSE, dpi = 180, fig.width = 6, fig.height = 6)
 
 # parametros -----------------------------------------------------------------------------------------------------------
 
