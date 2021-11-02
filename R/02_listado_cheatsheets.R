@@ -46,7 +46,7 @@ ultima_ejecucion <- listado_ejecuciones[length(listado_ejecuciones)]
 listado_cheatsheets <- list.files(path = ultima_ejecucion, include.dirs = FALSE, full.names = TRUE)
 nombres_cheatsheets <- basename(listado_cheatsheets)
 
-cheatsheets <- tibble(descarga = ultima_ejecucion, nombre = nombres_cheatsheets, file = listado_ejecuciones)
+cheatsheets <- tibble(descarga = ultima_ejecucion, nombre = nombres_cheatsheets, file = listado_cheatsheets)
 
 kable(cheatsheets)
 
