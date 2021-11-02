@@ -40,5 +40,7 @@ source(file = "00_utils.R")
 
 # ejecucion ------------------------------------------------------------------------------------------------------------
 
+cat(file = stderr(), paste(Sys.time(), "- iniciando descarga \n"))
+
 get_all_cheatsheets(local_path = glue("{dir_salida}/{fecha}"), tidyverse_only = TRUE)
 
