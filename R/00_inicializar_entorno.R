@@ -6,7 +6,7 @@
 #' output: html_document
 #' ---
 
-#' # Objetivo:
+#' # Objetivoss:
 #'
 #' Inicializar el entorno de trabajo para el proyecto
 #'
